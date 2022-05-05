@@ -1,0 +1,256 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    font-size: 3.5em;
+}
+h2{
+    font-size: 2.7em;
+}
+h3{
+    font-size: 2em;
+}
+p{
+    font-size: 1.25em
+}
+ul{
+    list-style: none;
+}
+li{
+    font-size: 1,25em;
+}
+
+body{
+    font-family:roboto, sans-serif;
+    margin:0;
+}
+
+html{
+    scroll-behavior: smooth;
+
+}
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: 2px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: whitesmoke;
+    background-color: green;
+}
+button:hover{
+    background-color: rgb(3, 99, 3);
+}
+
+
+
+.container{
+    max-width: 1400px;
+    margin:auto;
+}
+
+.color-acento{
+    color: rgb(38, 124, 27);
+}
+header{
+    background-color: rgb(235,235,235);
+}
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(38, 124, 27);
+    font-size: 1.45em;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: rgb(81, 160, 240);
+}
+
+#Hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color:cornsilk;
+    background-image: linear-gradient(0deg, 
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ), url("https://cdn.cienradios.com/wp-content/uploads/sites/12/2020/11/Usurparon-un-campo-y-pusieron-las-vacas-a-la-venta-por-Facebook-0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#Hero h1{
+    color: white;
+}
+
+#Hero button{
+    font-size: 2em;
+}
+
+
+
+#somos-BS .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+#somos-BS h2{
+    text-align: center;
+    margin-block-end: 60px;
+}
+#somos-BS p{
+    margin-block-end: 200px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#Nuestras-Recomendaciones{ 
+    background-color: rgb( 30, 30, 30);
+    color: white;
+    text-align: center;
+    padding-top: 0%;
+}
+
+#Nuestras-Recomendaciones .container{
+    padding: 100px 0px;
+}
+#Nuestras-Recomendaciones p{
+    display: none;
+}
+#Nuestras-Recomendaciones h2{
+    margin-top: 0;
+    font-size: 3em;
+}
+
+#Nuestras-Recomendaciones .carta{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+.carta:nth-child(2){
+    background-image:linear-gradient(0deg, 
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ), url("https://img.freepik.com/foto-gratis/rebano-vacas-que-producen-leche-queso-gruyere-francia-primavera_181624-45430.jpg?w=2000");
+}
+
+.carta:nth-child(3){
+    background-image:linear-gradient(0deg, 
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ), url("https://images.ecestaticos.com/LLu1B3v-OTmRQvoR6IXS7CGslAg=/0x43:994x604/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F87f%2F4ea%2F2be%2F87f4ea2be576a4700eedbcddd02817c6.jpg");   
+}
+
+.carta:nth-child(4){
+    background-image:linear-gradient(0deg, 
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ), url("https://www.zschimmer-schwarz.es/app/uploads/2021/01/agricultura-fertilizantes-agricolas-productos-agroquimicos-aditivos-quimicos-para-agricultura-que-es-un-fertilizante-tipos-de-fertilizantes.jpg");
+}
+
+section #somos-BS{
+    padding: 200px 12px;
+    text-align: center;
+
+}
+
+#caracteristicas .container{
+    text-align: center;
+    padding: 300px 0px;
+}
+
+#caracteristicas li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+#contactanos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(30, 30, 30);
+    color: white;
+
+}
+
+#contactanos button{
+    font-size: 9vw;
+}
+
+#contactanos h2{
+    font-size: 9vw;
+}
+footer{
+    background-color: rgb(230, 230, 230);
+}
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100, 100, 100);
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (min-width:720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+    #somos-BS .container{
+        
+    }
+    #somos-BS .img-container{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5)
+            rgba(0,0,0,0.5)
+        ),
+    }
+}
